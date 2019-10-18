@@ -158,7 +158,7 @@
 
     <build>
 <!--        <finalName>${project.artifactId}</finalName>-->
-        <finalName>jrmmba-starthere</finalName>
+        <finalName>lindseyacason-school-starthere</finalName>
 
         <plugins>
             <plugin>

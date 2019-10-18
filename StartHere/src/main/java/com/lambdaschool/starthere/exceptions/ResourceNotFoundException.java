@@ -7,16 +7,16 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class ResourceNotFoundException extends RuntimeException
 {
     private static final long serialVersionUID = 1L;
+    //this will need to be unique every time... ie 1L 2L etc
 
     public ResourceNotFoundException(String message)
     {
-        super(message);
+        super(message + " Please Try Again ");
     }
 
-    public ResourceNotFoundException(String message,
-                                     Throwable cause)
+    public ResourceNotFoundException(String message, Throwable cause)
     {
-        super(message,
-              cause);
+        super(message + " Please Try Again ", cause);
     }
+
 }

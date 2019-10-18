@@ -65,6 +65,7 @@ public class DataSourceConfig
             myDriverClass = "org.postgresql.Driver";
             myDBUser = System.getenv("MYDBUSER");
             myDBPassword = System.getenv("MYDBPASSWORD");
+            System.out.println("***************************" + myDBUser + myDBPassword);
         } else
         {
             // Assumes H2
